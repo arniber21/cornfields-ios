@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		5F772AA92CB0BC0300BEE6AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F772A8E2CB0BC0100BEE6AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F772A952CB0BC0100BEE6AF;
+			remoteInfo = Cornfield;
+		};
+		5F772AB32CB0BC0300BEE6AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F772A8E2CB0BC0100BEE6AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F772A952CB0BC0100BEE6AF;
+			remoteInfo = Cornfield;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F772A962CB0BC0100BEE6AF /* Cornfield.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cornfield.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F772AA82CB0BC0300BEE6AF /* CornfieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CornfieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F772AB22CB0BC0300BEE6AF /* CornfieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CornfieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5F772A982CB0BC0100BEE6AF /* Cornfield */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Cornfield;
+			sourceTree = "<group>";
+		};
+		5F772AAB2CB0BC0300BEE6AF /* CornfieldTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CornfieldTests;
+			sourceTree = "<group>";
+		};
+		5F772AB52CB0BC0300BEE6AF /* CornfieldUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CornfieldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F772A932CB0BC0100BEE6AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F772AA52CB0BC0300BEE6AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F772AAF2CB0BC0300BEE6AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F772A8D2CB0BC0100BEE6AF = {
+			isa = PBXGroup;
+			children = (
+				5F772A982CB0BC0100BEE6AF /* Cornfield */,
+				5F772AAB2CB0BC0300BEE6AF /* CornfieldTests */,
+				5F772AB52CB0BC0300BEE6AF /* CornfieldUITests */,
+				5F772A972CB0BC0100BEE6AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F772A972CB0BC0100BEE6AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F772A962CB0BC0100BEE6AF /* Cornfield.app */,
+				5F772AA82CB0BC0300BEE6AF /* CornfieldTests.xctest */,
+				5F772AB22CB0BC0300BEE6AF /* CornfieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F772A952CB0BC0100BEE6AF /* Cornfield */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F772ABC2CB0BC0300BEE6AF /* Build configuration list for PBXNativeTarget "Cornfield" */;
+			buildPhases = (
+				5F772A922CB0BC0100BEE6AF /* Sources */,
+				5F772A932CB0BC0100BEE6AF /* Frameworks */,
+				5F772A942CB0BC0100BEE6AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5F772A982CB0BC0100BEE6AF /* Cornfield */,
+			);
+			name = Cornfield;
+			packageProductDependencies = (
+			);
+			productName = Cornfield;
+			productReference = 5F772A962CB0BC0100BEE6AF /* Cornfield.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F772AA72CB0BC0300BEE6AF /* CornfieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F772ABF2CB0BC0300BEE6AF /* Build configuration list for PBXNativeTarget "CornfieldTests" */;
+			buildPhases = (
+				5F772AA42CB0BC0300BEE6AF /* Sources */,
+				5F772AA52CB0BC0300BEE6AF /* Frameworks */,
+				5F772AA62CB0BC0300BEE6AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F772AAA2CB0BC0300BEE6AF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5F772AAB2CB0BC0300BEE6AF /* CornfieldTests */,
+			);
+			name = CornfieldTests;
+			packageProductDependencies = (
+			);
+			productName = CornfieldTests;
+			productReference = 5F772AA82CB0BC0300BEE6AF /* CornfieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F772AB12CB0BC0300BEE6AF /* CornfieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F772AC22CB0BC0300BEE6AF /* Build configuration list for PBXNativeTarget "CornfieldUITests" */;
+			buildPhases = (
+				5F772AAE2CB0BC0300BEE6AF /* Sources */,
+				5F772AAF2CB0BC0300BEE6AF /* Frameworks */,
+				5F772AB02CB0BC0300BEE6AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F772AB42CB0BC0300BEE6AF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5F772AB52CB0BC0300BEE6AF /* CornfieldUITests */,
+			);
+			name = CornfieldUITests;
+			packageProductDependencies = (
+			);
+			productName = CornfieldUITests;
+			productReference = 5F772AB22CB0BC0300BEE6AF /* CornfieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F772A8E2CB0BC0100BEE6AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					5F772A952CB0BC0100BEE6AF = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					5F772AA72CB0BC0300BEE6AF = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 5F772A952CB0BC0100BEE6AF;
+					};
+					5F772AB12CB0BC0300BEE6AF = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 5F772A952CB0BC0100BEE6AF;
+					};
+				};
+			};
+			buildConfigurationList = 5F772A912CB0BC0100BEE6AF /* Build configuration list for PBXProject "Cornfield" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F772A8D2CB0BC0100BEE6AF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5F772A972CB0BC0100BEE6AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F772A952CB0BC0100BEE6AF /* Cornfield */,
+				5F772AA72CB0BC0300BEE6AF /* CornfieldTests */,
+				5F772AB12CB0BC0300BEE6AF /* CornfieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F772A942CB0BC0100BEE6AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F772AA62CB0BC0300BEE6AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F772AB02CB0BC0300BEE6AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F772A922CB0BC0100BEE6AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F772AA42CB0BC0300BEE6AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F772AAE2CB0BC0300BEE6AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F772AAA2CB0BC0300BEE6AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F772A952CB0BC0100BEE6AF /* Cornfield */;
+			targetProxy = 5F772AA92CB0BC0300BEE6AF /* PBXContainerItemProxy */;
+		};
+		5F772AB42CB0BC0300BEE6AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F772A952CB0BC0100BEE6AF /* Cornfield */;
+			targetProxy = 5F772AB32CB0BC0300BEE6AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5F772ABA2CB0BC0300BEE6AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F772ABB2CB0BC0300BEE6AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F772ABD2CB0BC0300BEE6AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cornfield/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CornOnTheCob.Cornfield;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F772ABE2CB0BC0300BEE6AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cornfield/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CornOnTheCob.Cornfield;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5F772AC02CB0BC0300BEE6AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CornOnTheCob.CornfieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cornfield.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cornfield";
+			};
+			name = Debug;
+		};
+		5F772AC12CB0BC0300BEE6AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CornOnTheCob.CornfieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cornfield.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cornfield";
+			};
+			name = Release;
+		};
+		5F772AC32CB0BC0300BEE6AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CornOnTheCob.CornfieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cornfield;
+			};
+			name = Debug;
+		};
+		5F772AC42CB0BC0300BEE6AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CornOnTheCob.CornfieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cornfield;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F772A912CB0BC0100BEE6AF /* Build configuration list for PBXProject "Cornfield" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F772ABA2CB0BC0300BEE6AF /* Debug */,
+				5F772ABB2CB0BC0300BEE6AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F772ABC2CB0BC0300BEE6AF /* Build configuration list for PBXNativeTarget "Cornfield" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F772ABD2CB0BC0300BEE6AF /* Debug */,
+				5F772ABE2CB0BC0300BEE6AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F772ABF2CB0BC0300BEE6AF /* Build configuration list for PBXNativeTarget "CornfieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F772AC02CB0BC0300BEE6AF /* Debug */,
+				5F772AC12CB0BC0300BEE6AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F772AC22CB0BC0300BEE6AF /* Build configuration list for PBXNativeTarget "CornfieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F772AC32CB0BC0300BEE6AF /* Debug */,
+				5F772AC42CB0BC0300BEE6AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F772A8E2CB0BC0100BEE6AF /* Project object */;
+}
